@@ -1,6 +1,30 @@
 # OpenAI Web Server
 
+Today's GPT experiment: Using the ChatGPT API as a web server! When clients request a route, we prompt GPT: "You're a web server. You receive a route for an HTML page that the client requests. Reply with the full HTML for the page..."
+
+![Home page photo](https://pbs.twimg.com/media/Fst04nnaEAArH17?format=jpg&name=large)
+**Figure: Example home page**
+
+Page history gets stored & repeated with each request for seamless cohesion between pages.
+
+![Child page photo](https://pbs.twimg.com/media/Fst1qOqaYAE_Bom?format=jpg&name=large)
+**Figure: Clicking on a link to a child page**
+
+Roll the dice - Type in a random URL and voilà, a new page gets generated! No more 404 errors!
+
+![Random URL photo](https://pbs.twimg.com/media/Fst1zjzaIAIv5tp?format=jpg&name=large)
+**Figure: Going to a random URL**
+
+My favorite feature: Restart the server, and you get a fresh, entirely new look every time.
+
+![New home page photo after refresh](https://pbs.twimg.com/media/Fst18hxakAMojxB?format=jpg&name=large)
+**Figure: New home page after server restart**
+
 This is an Express web server that uses OpenAI's GPT-4 API to generate HTML pages in response to incoming requests. 
+
+Feel free to explore, contribute or just take a look! Let me know what you think below!
+
+Note: This experiment isn't exactly optimized for performance – some pages may take a couple of minutes to load fully. It's a nostalgic throwback to dial-up internet days...
 
 ## Installation
 
