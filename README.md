@@ -1,4 +1,4 @@
-# OpenAI Web Server
+# ChatGPT Web Server
 
 Today's GPT experiment: Using the ChatGPT API as a web server! When clients request a route, we prompt GPT: "You're a web server. You receive a route for an HTML page that the client requests. Reply with the full HTML for the page..."
 
